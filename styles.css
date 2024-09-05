@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #4682b4;
+    color: white;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+
+.profile {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#profile-pic {
+    width: 150px;
+    border-radius:50%;
+    transition: background-color 0.3s ease;
+}
+
+
+.me {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #4682b4;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4682b4;
+    color: white;
+}
+
+td {
+    background-color: #f0f8ff;
+}
+
+.media iframe, .media audio {
+    display: block;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: hsl(123, 44%, 49%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(132, 38%, 61%);
+}
+.realtime {
+    text-align: left; 
+    margin-top: 50px;
+}
